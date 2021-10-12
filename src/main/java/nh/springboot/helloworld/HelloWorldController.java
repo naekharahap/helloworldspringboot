@@ -21,6 +21,8 @@ public class HelloWorldController {
 		map.put("message", "Hello world spring boot");
 		map.put("host", host.getHostName());
 		map.put("ip", host.getHostAddress());
+		map.put("access", System.getenv("ACCESS_TYPE"));
+		map.put("sys id", System.getenv("SYSTEM_ID"));
 
 		ObjectMapper mapper = new ObjectMapper();
 		String jsonResult = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(map);
