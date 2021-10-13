@@ -41,12 +41,12 @@ spec:
             - name: LANGUAGE
               valueFrom:
                 configMapKeyRef:
-                  name: language
+                  name: helloworldspringboot
                   key: LANGUAGE
             - name: API_KEY
               valueFrom:
                 secretKeyRef:
-                  name: apikey
+                  name: helloworldspringboot
                   key: API_KEY
           ports:
             - name: http

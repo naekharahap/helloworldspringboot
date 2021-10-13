@@ -87,5 +87,5 @@ route:
   enabled: true
 
 secret:
-  apikey: ""
-  apiid: ""
+  apikey: "bm9uZQ=="
+  apiid: "bm9uZQ=="
