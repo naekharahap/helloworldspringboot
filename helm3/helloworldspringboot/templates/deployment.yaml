@@ -37,7 +37,17 @@ spec:
             - name: ACCESS_TYPE
               value: "Public"
             - name: SYSTEM_ID
-              value: "123-456-789"
+              value: "123-456-789"             
+            - name: LANGUAGE
+              valueFrom:
+                configMapKeyRef:
+                  name: language
+                  key: LANGUAGE
+            - name: API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: apikey
+                  key: API_KEY
           ports:
             - name: http
               containerPort: {{ .Values.service.targetPort }}

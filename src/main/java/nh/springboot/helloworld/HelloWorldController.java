@@ -17,13 +17,12 @@ public class HelloWorldController {
 	public String index() throws Exception {
 		InetAddress host = InetAddress.getLocalHost();
 		
-		Map<String, String> map = new LinkedHashMap <>();
+		Map<String, Object> map = new LinkedHashMap <>();
 		map.put("message", "Hello world spring boot");
 		map.put("host", host.getHostName());
-		map.put("ip", host.getHostAddress());
-		map.put("access", System.getenv("ACCESS_TYPE"));
-		map.put("sys id", System.getenv("SYSTEM_ID"));
-
+		map.put("ip(s)", host.getHostAddress());
+		map.put("environment-variable(s)",  System.getenv());
+		
 		ObjectMapper mapper = new ObjectMapper();
 		String jsonResult = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(map);
 
