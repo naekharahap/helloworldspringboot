@@ -1,27 +1,40 @@
-Configuration:
+configuration:
+  status: warn
   name: Default
-  Properties:
-    Property:
-      name: log-path
-      value: "."
-  Appenders:
+  properties:
+    property:
+      name: log_pattern
+      value: "%sanitize{[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [${hostName}] [%t] %c{1} - %msg%n}"
+  packages: nh.springboot.helloworld.logging      
+  appenders:
     Console:
-      name: ConsoleAppender1
+      name: STDOUT
       target: SYSTEM_OUT
-      PatternLayout:
-        pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
-    File:
-      name: FileAppender1
+      patternLayout:
+        pattern: ${log_pattern}
+#    File:
+#      name: FileAppender1
+#      fileName: app.log
+#      patternLayout:
+#        pattern: ${log_pattern}
+    RollingFile:
+      name: RollingFileAppender1
       fileName: app.log
-      PatternLayout:
-        pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
-  Loggers:
-      Root:
+      filePattern: "logs/app.%d{yyyy-MM-dd}.log"
+      patternLayout:
+        pattern: ${log_pattern}
+      policies:
+        TimeBasedTriggeringPolicy:
+          interval: 1
+      DefaultRollOverStrategy:
+        max: 7
+  loggers:
+      root:
         level: info
-        AppenderRef:
-          - ref: ConsoleAppender1
-      Logger:
+        appenderRef:
+          - ref: STDOUT
+      logger:
         - name: nh.springboot
           level: debug
-          AppenderRef:
-            - ref: FileAppender1
+          appenderRef:
+            - ref: RollingFileAppender1

@@ -4,14 +4,19 @@ import java.net.InetAddress;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import nh.springboot.helloworld.component.HelloContext;
+import nh.springboot.helloworld.component.filter.HttpHeaderFilter;
 import nh.springboot.helloworld.service.HelloworldService;
 
 @Service
 public class HelloworldServiceImpl implements HelloworldService {
+	Logger logger = LoggerFactory.getLogger(HelloworldServiceImpl.class);
+	
 	@Autowired
 	private HelloContext context;
 	
@@ -26,6 +31,9 @@ public class HelloworldServiceImpl implements HelloworldService {
 		map.put("environment-variable(s)",  System.getenv());
 		// Get data from request context
 		map.put("greeting",  context.getGreeting());
+		
+		logger.info(context.getAppInfo().toString());
+		logger.info("email: naekha@gmail.com");
 		map.put("name",  context.getAppInfo().getName());
 		map.put("username",  context.getAppInfo().getUsername());
 		return map;

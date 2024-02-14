@@ -20,4 +20,9 @@ public class AppInfo {
 		this.username = username;
 	}
 
+	@Override
+	public String toString() {
+		return "AppInfo [name=" + name + ", username=" + username + "]";
+	}
+
 }

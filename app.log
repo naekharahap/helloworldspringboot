@@ -1,75 +1,34 @@
-[INFO ] 2024-02-14 15:46:49.397 [main] Application - Starting Application using Java 20.0.1 on NaekHr with PID 2748 (D:\workspace\spring\helloworldspringboot\target\classes started by NaekHa in D:\workspace\spring\helloworldspringboot)
-[DEBUG] 2024-02-14 15:46:49.412 [main] Application - Running with Spring Boot v2.5.5, Spring v5.3.10
-[INFO ] 2024-02-14 15:46:49.413 [main] Application - No active profile set, falling back to default profiles: default
-[INFO ] 2024-02-14 15:46:52.020 [main] Application - Started Application in 3.231 seconds (JVM running for 4.902)
-[DEBUG] 2024-02-14 15:47:32.764 [http-nio-8081-exec-1] LoggerInterceptor - ::preHandle()
-[DEBUG] 2024-02-14 15:47:32.835 [http-nio-8081-exec-1] LoggerInterceptor - ::postHandle()
-[DEBUG] 2024-02-14 15:47:32.840 [http-nio-8081-exec-1] LoggerInterceptor - ::afterCompletion()
-[DEBUG] 2024-02-14 15:47:33.724 [http-nio-8081-exec-2] LoggerInterceptor - ::preHandle()
-[DEBUG] 2024-02-14 15:47:33.728 [http-nio-8081-exec-2] LoggerInterceptor - ::postHandle()
-[DEBUG] 2024-02-14 15:47:33.729 [http-nio-8081-exec-2] LoggerInterceptor - ::afterCompletion()
-[DEBUG] 2024-02-14 15:47:34.530 [http-nio-8081-exec-3] LoggerInterceptor - ::preHandle()
-[DEBUG] 2024-02-14 15:47:34.535 [http-nio-8081-exec-3] LoggerInterceptor - ::postHandle()
-[DEBUG] 2024-02-14 15:47:34.535 [http-nio-8081-exec-3] LoggerInterceptor - ::afterCompletion()
-[INFO ] 2024-02-14 16:26:05.141 [main] Application - Starting Application using Java 20.0.1 on NaekHr with PID 27644 (D:\workspace\spring\helloworldspringboot\target\classes started by NaekHa in D:\workspace\spring\helloworldspringboot)
-[DEBUG] 2024-02-14 16:26:05.154 [main] Application - Running with Spring Boot v2.5.5, Spring v5.3.10
-[INFO ] 2024-02-14 16:26:05.156 [main] Application - No active profile set, falling back to default profiles: default
-[INFO ] 2024-02-14 16:26:07.773 [main] Application - Started Application in 3.262 seconds (JVM running for 5.036)
-[DEBUG] 2024-02-14 16:26:14.516 [http-nio-8081-exec-1] LoggerInterceptor - ::preHandle()
-[DEBUG] 2024-02-14 16:26:14.574 [http-nio-8081-exec-1] LoggerInterceptor - ::preHandle()
-[DEBUG] 2024-02-14 16:26:14.674 [http-nio-8081-exec-2] LoggerInterceptor - ::preHandle()
-[DEBUG] 2024-02-14 16:26:14.677 [http-nio-8081-exec-2] LoggerInterceptor - ::preHandle()
-[INFO ] 2024-02-14 16:27:59.024 [main] Application - Starting Application using Java 20.0.1 on NaekHr with PID 36096 (D:\workspace\spring\helloworldspringboot\target\classes started by NaekHa in D:\workspace\spring\helloworldspringboot)
-[DEBUG] 2024-02-14 16:27:59.038 [main] Application - Running with Spring Boot v2.5.5, Spring v5.3.10
-[INFO ] 2024-02-14 16:27:59.039 [main] Application - No active profile set, falling back to default profiles: default
-[INFO ] 2024-02-14 16:28:01.722 [main] Application - Started Application in 3.291 seconds (JVM running for 5.002)
-[DEBUG] 2024-02-14 16:28:06.680 [http-nio-8081-exec-1] LoggerInterceptor - ::preHandle()
-[DEBUG] 2024-02-14 16:28:06.749 [http-nio-8081-exec-1] LoggerInterceptor - ::postHandle()
-[DEBUG] 2024-02-14 16:28:06.749 [http-nio-8081-exec-1] LoggerInterceptor - ::afterCompletion()
-[DEBUG] 2024-02-14 16:29:05.180 [http-nio-8081-exec-2] LoggerInterceptor - ::preHandle()
-[DEBUG] 2024-02-14 16:29:05.187 [http-nio-8081-exec-2] LoggerInterceptor - ::postHandle()
-[DEBUG] 2024-02-14 16:29:05.187 [http-nio-8081-exec-2] LoggerInterceptor - ::afterCompletion()
-[INFO ] 2024-02-14 16:42:38.906 [main] Application - Starting Application using Java 20.0.1 on NaekHr with PID 9036 (D:\workspace\spring\helloworldspringboot\target\classes started by NaekHa in D:\workspace\spring\helloworldspringboot)
-[DEBUG] 2024-02-14 16:42:38.917 [main] Application - Running with Spring Boot v2.5.5, Spring v5.3.10
-[INFO ] 2024-02-14 16:42:38.919 [main] Application - No active profile set, falling back to default profiles: default
-[INFO ] 2024-02-14 16:42:41.503 [main] Application - Started Application in 3.165 seconds (JVM running for 4.787)
-[INFO ] 2024-02-14 16:42:50.771 [http-nio-8081-exec-1] RequestResponseLoggingFilter - Logging Request  GET : /
-[INFO ] 2024-02-14 16:42:50.772 [http-nio-8081-exec-1] RequestResponseLoggingFilter - Logging Response :null
-[INFO ] 2024-02-14 16:43:12.679 [http-nio-8081-exec-2] RequestResponseLoggingFilter - Logging Request  GET : /
-[INFO ] 2024-02-14 16:43:12.679 [http-nio-8081-exec-2] RequestResponseLoggingFilter - Logging Response :null
-[INFO ] 2024-02-14 16:43:32.963 [http-nio-8081-exec-3] RequestResponseLoggingFilter - Logging Request  GET : /
-[INFO ] 2024-02-14 16:43:32.966 [http-nio-8081-exec-3] RequestResponseLoggingFilter - Logging Response :null
-[INFO ] 2024-02-14 16:43:55.072 [main] Application - Starting Application using Java 20.0.1 on NaekHr with PID 14716 (D:\workspace\spring\helloworldspringboot\target\classes started by NaekHa in D:\workspace\spring\helloworldspringboot)
-[DEBUG] 2024-02-14 16:43:55.086 [main] Application - Running with Spring Boot v2.5.5, Spring v5.3.10
-[INFO ] 2024-02-14 16:43:55.088 [main] Application - No active profile set, falling back to default profiles: default
-[INFO ] 2024-02-14 16:43:57.580 [main] Application - Started Application in 3.076 seconds (JVM running for 4.727)
-[INFO ] 2024-02-14 16:44:05.863 [http-nio-8081-exec-1] RequestResponseLoggingFilter - Logging Request  GET : /
-[INFO ] 2024-02-14 16:44:05.863 [http-nio-8081-exec-1] RequestResponseLoggingFilter - Logging Response :null
-[INFO ] 2024-02-14 16:44:09.049 [http-nio-8081-exec-2] RequestResponseLoggingFilter - Logging Request  GET : /
-[INFO ] 2024-02-14 16:44:09.049 [http-nio-8081-exec-2] RequestResponseLoggingFilter - Logging Response :null
-[INFO ] 2024-02-14 16:44:35.782 [http-nio-8081-exec-3] RequestResponseLoggingFilter - Logging Request  GET : /
-[INFO ] 2024-02-14 16:44:35.782 [http-nio-8081-exec-3] RequestResponseLoggingFilter - Logging Response :null
-[INFO ] 2024-02-14 16:45:03.986 [http-nio-8081-exec-4] RequestResponseLoggingFilter - Logging Request  GET : /
-[INFO ] 2024-02-14 16:45:03.987 [http-nio-8081-exec-4] RequestResponseLoggingFilter - Logging Response :null
-[INFO ] 2024-02-14 16:45:24.271 [http-nio-8081-exec-5] RequestResponseLoggingFilter - Logging Request  GET : /
-[INFO ] 2024-02-14 16:45:24.273 [http-nio-8081-exec-5] RequestResponseLoggingFilter - Logging Response :null
-[INFO ] 2024-02-14 16:46:17.979 [main] Application - Starting Application using Java 20.0.1 on NaekHr with PID 28704 (D:\workspace\spring\helloworldspringboot\target\classes started by NaekHa in D:\workspace\spring\helloworldspringboot)
-[DEBUG] 2024-02-14 16:46:17.992 [main] Application - Running with Spring Boot v2.5.5, Spring v5.3.10
-[INFO ] 2024-02-14 16:46:17.993 [main] Application - No active profile set, falling back to default profiles: default
-[INFO ] 2024-02-14 16:46:20.950 [main] Application - Started Application in 3.587 seconds (JVM running for 5.256)
-[INFO ] 2024-02-14 16:46:34.243 [http-nio-8081-exec-1] RequestResponseLoggingFilter - Logging Request  GET : /
-[INFO ] 2024-02-14 16:46:34.244 [http-nio-8081-exec-1] RequestResponseLoggingFilter - Logging Response :null
-[INFO ] 2024-02-14 16:46:39.874 [http-nio-8081-exec-2] RequestResponseLoggingFilter - Logging Request  GET : /
-[INFO ] 2024-02-14 16:46:39.875 [http-nio-8081-exec-2] RequestResponseLoggingFilter - Logging Response :null
-[INFO ] 2024-02-14 16:46:46.099 [http-nio-8081-exec-3] RequestResponseLoggingFilter - Logging Request  GET : /
-[DEBUG] 2024-02-14 16:46:46.116 [http-nio-8081-exec-3] AppContextInterceptor - ::preHandle()
-[DEBUG] 2024-02-14 16:46:46.195 [http-nio-8081-exec-3] AppContextInterceptor - ::postHandle()
-[DEBUG] 2024-02-14 16:46:46.196 [http-nio-8081-exec-3] AppContextInterceptor - ::afterCompletion()
-[INFO ] 2024-02-14 16:46:46.196 [http-nio-8081-exec-3] RequestResponseLoggingFilter - Logging Response :application/json
-[INFO ] 2024-02-14 16:47:03.872 [http-nio-8081-exec-4] RequestResponseLoggingFilter - Logging Request  GET : /
-[INFO ] 2024-02-14 16:47:03.873 [http-nio-8081-exec-4] RequestResponseLoggingFilter - Logging Response :null
-[INFO ] 2024-02-14 16:47:25.793 [http-nio-8081-exec-5] RequestResponseLoggingFilter - Logging Request  GET : /
-[DEBUG] 2024-02-14 16:47:25.793 [http-nio-8081-exec-5] AppContextInterceptor - ::preHandle()
-[DEBUG] 2024-02-14 16:47:25.796 [http-nio-8081-exec-5] AppContextInterceptor - ::postHandle()
-[DEBUG] 2024-02-14 16:47:25.796 [http-nio-8081-exec-5] AppContextInterceptor - ::afterCompletion()
-[INFO ] 2024-02-14 16:47:25.796 [http-nio-8081-exec-5] RequestResponseLoggingFilter - Logging Response :application/json
+[INFO ] 2024-02-14 20:26:19.546 [NaekHr] [main] Application - Starting Application using Java 20.0.1 on NaekHr with PID 3968 (D:\workspace\spring\helloworldspringboot\target\classes started by NaekHa in D:\workspace\spring\helloworldspringboot)
+[DEBUG] 2024-02-14 20:26:19.556 [NaekHr] [main] Application - Running with Spring Boot v2.5.5, Spring v5.3.10
+[INFO ] 2024-02-14 20:26:19.557 [NaekHr] [main] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2024-02-14 20:26:21.332 [NaekHr] [main] Application - Started Application in 2.15 seconds (JVM running for 3.216)
+[INFO ] 2024-02-14 20:26:27.750 [NaekHr] [main] Application - Starting Application using Java 20.0.1 on NaekHr with PID 31808 (D:\workspace\spring\helloworldspringboot\target\classes started by NaekHa in D:\workspace\spring\helloworldspringboot)
+[DEBUG] 2024-02-14 20:26:27.759 [NaekHr] [main] Application - Running with Spring Boot v2.5.5, Spring v5.3.10
+[INFO ] 2024-02-14 20:26:27.760 [NaekHr] [main] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2024-02-14 20:26:45.154 [NaekHr] [main] Application - Starting Application using Java 20.0.1 on NaekHr with PID 19492 (D:\workspace\spring\helloworldspringboot\target\classes started by NaekHa in D:\workspace\spring\helloworldspringboot)
+[DEBUG] 2024-02-14 20:26:45.162 [NaekHr] [main] Application - Running with Spring Boot v2.5.5, Spring v5.3.10
+[INFO ] 2024-02-14 20:26:45.163 [NaekHr] [main] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2024-02-14 20:27:18.931 [NaekHr] [main] Application - Starting Application using Java 20.0.1 on NaekHr with PID 28412 (D:\workspace\spring\helloworldspringboot\target\classes started by NaekHa in D:\workspace\spring\helloworldspringboot)
+[DEBUG] 2024-02-14 20:27:18.940 [NaekHr] [main] Application - Running with Spring Boot v2.5.5, Spring v5.3.10
+[INFO ] 2024-02-14 20:27:18.941 [NaekHr] [main] Application - No active profile set, falling back to default profiles: default
+[INFO ] 2024-02-14 20:27:42.925 [NaekHr] [http-nio-8081-exec-1] RequestResponseLoggingFilter - Logging Request  GET : /
+[DEBUG] 2024-02-14 20:27:42.932 [NaekHr] [http-nio-8081-exec-1] AppContextInterceptor - ::preHandle()
+[INFO ] 2024-02-14 20:27:42.954 [NaekHr] [http-nio-8081-exec-1] HelloworldServiceImpl - AppInfo [name=null, username=***
+[INFO ] 2024-02-14 20:27:42.954 [NaekHr] [http-nio-8081-exec-1] HelloworldServiceImpl - email: naekha@gmail.com
+[DEBUG] 2024-02-14 20:27:42.987 [NaekHr] [http-nio-8081-exec-1] AppContextInterceptor - ::postHandle()
+[DEBUG] 2024-02-14 20:27:42.987 [NaekHr] [http-nio-8081-exec-1] AppContextInterceptor - ::afterCompletion()
+[INFO ] 2024-02-14 20:27:42.988 [NaekHr] [http-nio-8081-exec-1] RequestResponseLoggingFilter - Logging Response :application/json
+[INFO ] 2024-02-14 20:27:44.039 [NaekHr] [http-nio-8081-exec-2] RequestResponseLoggingFilter - Logging Request  GET : /
+[DEBUG] 2024-02-14 20:27:44.040 [NaekHr] [http-nio-8081-exec-2] AppContextInterceptor - ::preHandle()
+[INFO ] 2024-02-14 20:27:44.040 [NaekHr] [http-nio-8081-exec-2] HelloworldServiceImpl - AppInfo [name=null, username=***
+[INFO ] 2024-02-14 20:27:44.040 [NaekHr] [http-nio-8081-exec-2] HelloworldServiceImpl - email: naekha@gmail.com
+[DEBUG] 2024-02-14 20:27:44.042 [NaekHr] [http-nio-8081-exec-2] AppContextInterceptor - ::postHandle()
+[DEBUG] 2024-02-14 20:27:44.042 [NaekHr] [http-nio-8081-exec-2] AppContextInterceptor - ::afterCompletion()
+[INFO ] 2024-02-14 20:27:44.042 [NaekHr] [http-nio-8081-exec-2] RequestResponseLoggingFilter - Logging Response :application/json
+[INFO ] 2024-02-14 20:27:44.908 [NaekHr] [http-nio-8081-exec-3] RequestResponseLoggingFilter - Logging Request  GET : /
+[DEBUG] 2024-02-14 20:27:44.909 [NaekHr] [http-nio-8081-exec-3] AppContextInterceptor - ::preHandle()
+[INFO ] 2024-02-14 20:27:44.910 [NaekHr] [http-nio-8081-exec-3] HelloworldServiceImpl - AppInfo [name=null, username=***
+[INFO ] 2024-02-14 20:27:44.910 [NaekHr] [http-nio-8081-exec-3] HelloworldServiceImpl - email: naekha@gmail.com
+[DEBUG] 2024-02-14 20:27:44.912 [NaekHr] [http-nio-8081-exec-3] AppContextInterceptor - ::postHandle()
+[DEBUG] 2024-02-14 20:27:44.913 [NaekHr] [http-nio-8081-exec-3] AppContextInterceptor - ::afterCompletion()
+[INFO ] 2024-02-14 20:27:44.913 [NaekHr] [http-nio-8081-exec-3] RequestResponseLoggingFilter - Logging Response :application/json
