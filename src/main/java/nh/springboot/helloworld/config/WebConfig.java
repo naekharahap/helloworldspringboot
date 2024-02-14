@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-import nh.springboot.helloworld.interceptor.LogHandlerInterceptor;
+import nh.springboot.helloworld.interceptor.AppContextInterceptor;
 
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
@@ -16,7 +16,7 @@ public class WebConfig implements WebMvcConfigurer {
     }
     
     @Bean
-    public LogHandlerInterceptor createLogHandlerInterceptor() {
-        return new LogHandlerInterceptor();
+    public AppContextInterceptor createLogHandlerInterceptor() {
+        return new AppContextInterceptor();
     }
 }
